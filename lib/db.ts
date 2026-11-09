@@ -1,7 +1,6 @@
 "use node";
 
 import { neon } from "@neondatabase/serverless";
-import "server-only";
 
 let _sql: any = null;
 

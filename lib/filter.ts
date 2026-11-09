@@ -1,5 +1,5 @@
 import "server-only";
-import { sql } from "./db";
+import { sql } from "./db.server";
 
 const LOOK_ALIKE: Record<string, string> = {
   "0": "o", "1": "i", "3": "e", "4": "a", "5": "s", "@": "a",

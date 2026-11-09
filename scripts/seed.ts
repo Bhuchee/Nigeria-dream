@@ -1,3 +1,5 @@
+import { config } from "dotenv";
+config({ path: ".env.local" });
 import { sql } from "../lib/db";
 
 const STARTER_LINES_EN = [

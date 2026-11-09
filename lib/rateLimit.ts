@@ -1,5 +1,5 @@
 import "server-only";
-import { sql } from "./db";
+import { sql } from "./db.server";
 
 const LIMITS: Record<string, { count: number; windowHours: number }> = {
   lines: { count: 5, windowHours: 1 },

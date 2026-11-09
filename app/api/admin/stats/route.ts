@@ -1,5 +1,5 @@
 import { NextResponse, NextRequest } from "next/server";
-import { sql } from "@/lib/db";
+import { sql } from "@/lib/db.server";
 import { verifyAdminCookie } from "@/lib/auth";
 import { cookies } from "next/headers";
 

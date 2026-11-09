@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { sql } from "@/lib/db";
+import { sql } from "@/lib/db.server";
 import { filterLine } from "@/lib/filter";
 import { checkRateLimit } from "@/lib/rateLimit";
 

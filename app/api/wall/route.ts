@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { sql } from "@/lib/db";
+import { sql } from "@/lib/db.server";
 import { checkWallRateLimit } from "@/lib/rateLimit";
 
 export const dynamic = "force-dynamic";

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { sql } from "@/lib/db";
+import { sql } from "@/lib/db.server";
 
 const CACHE_TTL_MS = 30000;
 let cache: { value: number; ts: number } | null = null;
