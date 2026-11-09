@@ -1,7 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
 export default function Controls() {
   const [settings, setSettings] = useState<any>({});
   const [stats, setStats] = useState<any>({});

@@ -44,7 +44,7 @@ export default function Takedown() {
         ) : (
           <div className="text-center py-10">
             <p className="text-lg text-ink font-medium mb-4">Thank you. Your request has been received.</p>
-            <a href="/" className="text-forest hover:underline">Return home</a>
+            <a href="/">Return home</a>
           </div>
         )}
         <p className="mt-6 text-sm text-gray-500">

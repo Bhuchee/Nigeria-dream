@@ -1,12 +1,7 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
 export default function Review() {
   const [items, setItems] = useState<any[]>([]);
   const [waiting, setWaiting] = useState(0);
   const [longest, setLongest] = useState<string | null>(null);
-  const [selected, setSelected] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     fetch("/api/admin/queue?type=pending")

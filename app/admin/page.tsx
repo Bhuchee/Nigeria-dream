@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
 export default function AdminLogin() {
   const [passcode, setPasscode] = useState("");
   const [error, setError] = useState(false);
